@@ -476,25 +476,7 @@ padding: 2rem;
     top:calc(100% - 12rem);
 }
 
-.loader-container{
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: #100f0f;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    z-index: 10000;
-    
-}
-.loader-container img{
-    border-radius: 50%;
-}
-.loader-container.fade-out{
-    top: -120%;
-}
+
 @media(max-width:991px){
     html{
         font-size: 55%;
